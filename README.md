@@ -2,10 +2,10 @@
 
 # Commands
 
-## web serve
+## Web serve
 bun nx serve web
 
-## mobile serve in emulators - (setting up host is important)
+## Mobile serve - (emulators/ devices)
 ### Android
 bun nx serve mobile --host=0.0.0.0
 LIVE=true nx run mobile:cap run android --external
